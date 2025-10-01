@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bellezza | Photography</title>
+
+  <!-- Favicon Links -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Mb -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/1616.png">
+  <!-- Apple devices -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/180.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- AOS Animation -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+   <!-- boxicon -->
+   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- AOS CSS -->
+ <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css?v=20250728">
+
+
+</head>
+<body>
+
+  <!-- Top Left Logo & Social Icons -->
+  <div class="top-left d-flex align-items-center">
+    <a class="navbar-brand logo" href="#">
+      <img src="images/Logo only 2.png" alt="Bellezza Logo" class="logo-img">
+    </a>
+    <!--<div class="social-icons ms-3">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fas fa-envelope"></i></a>
+    </div> -->
+  </div>
+
+  <!-- Navbar (Only Nav Links) -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container justify-content-end">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cat">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/about-us.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#albums">Albums</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Hero Section -->
+<section id="hero" class="hero-section">
+    <div class="swiper heroSwiper">
+      <div class="swiper-wrapper">
+        <!-- Video Slide 1 -->
+        <div class="swiper-slide">
+          <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-media">
+              <source src="vid/im1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+            <div class="hero-content d-flex justify-content-center align-items-center">
+              <img src="images/full.png" alt="Bellezza Logo" class="hero-logo img-fluid">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Video Slide 2 -->
+        <div class="swiper-slide">
+          <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-media">
+              <source src="vid/im2.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="hero-content d-flex justify-content-center align-items-center">
+              <img src="images/full.png" alt="Bellezza Logo" class="hero-logo img-fluid">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Video Slide 3 -->
+        <div class="swiper-slide">
+          <div class="video-container">
+            <video autoplay muted loop playsinline class="hero-media">
+              <source src="vid/im3.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="hero-content d-flex justify-content-center align-items-center">
+              <img src="images/full.png" alt="Bellezza Logo" class="hero-logo img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Navigation -->
+      <div class="swiper-button-next d-none d-md-flex"></div>
+      <div class="swiper-button-prev d-none d-md-flex"></div>
+      
+      <!-- Pagination for mobile -->
+      <div class="swiper-pagination d-md-none"></div>
+    </div>
+  </section>
+
+  
+ <!-- About -->
+<section id="about" class="py-5 bg-white">
+  <div class="container">
+    <div class="row">
+      <!-- Left Side: Images -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <!-- Main Landscape Image -->
+        <img src="images/iml.jpg" alt="Main" class="img-fluid rounded mb-3">
+
+        <!--  Portrait Images  -->
+        <div class="d-flex gap-3">
+          <img src="images/lol.jpg" alt="Portrait 1" class="rounded" style="height: 280px; width: 48%; object-fit: cover;">
+          <img src="images/bul.jpg" alt="Portrait 2" class="rounded" style="height: 280px; width: 48%; object-fit: cover;">
+        </div>
+      </div>
+
+      <!-- Right Side: Text -->
+      <div class="col-md-6">
+        <small class="text-uppercase" style="color: #3498db;">About Bellezza</small>
+        <h1 class="mt-2 fw-semibold">
+          Hi, We’re Bellezza Wedding Stories<br>
+          <span class="text-muted">Based in Sri Lanka | Available for Destination Weddings</span>
+        </h1>
+        <p class="mt-4 text-secondary">
+          Bellezza Wedding Stories is a well-known premier wedding photography brand dedicated to capturing timeless love with artistic elegance and heartfelt storytelling. Every frame we craft is a delicate balance of emotion, beauty, and authenticity — because we believe every picture has a story to tell.
+        </p>
+        <p class="text-secondary">
+          Specialized in cinematic moments and candid intimacy, we document not just events, but the essence of each couple's life journey. From quiet glances to grand celebrations, our visual narratives are designed to preserve memories with sophistication and soul.
+        </p>
+        <p class="text-secondary">
+          Let your love story unfold through our lens — where every detail is cherished, and every image speaks forever.
+        </p>
+
+        <!--<a href="about.html" class="btn btn-primary view-more-btn mt-3">
+          View More <i class="fas fa-arrow-right ms-2"></i>
+        </a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Customer Review Section -->
+
+<section class="quote-slider">
+  <div class="slides">
+    <div class="slide active" style="background-image: url('images/custrev1.jpg');">
+      <div class="glass">
+        <div class="quote-icon">❝</div>
+        <p class="quote-text">
+            “Bellezza Weddings captured every magical moment of our wedding. From start to finish, everything was perfect. Their creativity, attention to detail, and passion made the entire experience unforgettable. We highly recommend them!”
+        </p>
+       <!-- <p class="author"><strong>Lakinduni</strong><br/><span>Bride</span></p>-->
+      </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/hero4.jpg');">
+      <div class="glass">
+        <div class="quote-icon">❝</div>
+        <p class="quote-text">
+            “Thank you, Imalka, for making our special day even more beautiful. The photos—from our wedding to preschoot—were stunning. We’re truly grateful for your kindness, talent, and professionalism. Highly recommended!”
+        </p>
+       <!-- <p class="author"><strong>– Kavindi & Nirindu</strong><br/><span>Bride & Groom</span></p>-->
+      </div>
+    </div>
+
+    <div class="slide" style="background-image: url('images/custtesti.jpg');">
+      <div class="glass">
+        <div class="quote-icon">❝</div>
+        <p class="quote-text">
+           "Thank you, Bellezza team, for giving us memories that will last a lifetime. You didn't just do a shoot! You created magic. Keep it up the good work"
+        </p>
+       <!-- <p class="author"><strong>Ashen Stepahanes</strong><br/><span>Groom</span></p> -->
+      </div>
+    </div>
+  </div>
+
+<!-- Put dots here inside quote-slider -->
+<div class="dots">
+    <span class="dot active" data-index="0"></span>
+    <span class="dot" data-index="1"></span>
+    <span class="dot" data-index="2"></span>
+  </div>
+</section>
+
+
+
+
+<!-- cat section -->
+<section id="cat" class="category-section text-center py-5">
+  <div class="container">
+    <!-- Top Title -->
+    <h2 class="category-heading mb-5">
+      We capture real moments, raw emotions, and true love just as it happens,<br />
+      without scripts, filters, or forced perfection.
+    </h2>
+
+    <!-- Card Row -->
+    <div class="row justify-content-center align-items-center category-cards">
+      <!-- Left (Weddings) -->
+      <div class="col-md-4 category-card position-relative left-card">
+        <div class="image-container">
+          <img src="images/engiml.jpg" alt="Weddings" class="img-fluid category-image" />
+          <div class="image-overlay">
+            <i class="fas fa-eye overlay-icon"></i>
+          </div>
+        </div>
+        <h5 class="category-title mt-3">Engagements</h5>
+        <p class="category-description">The beginning of forever starts here.</p>
+        <a href=" https://www.instagram.com/invites/contact/?igsh=1q15kbekpmptr&utm_content=l7weic1" class="btn btn-primary view-more-btn">
+          View More <i class="fas fa-arrow-right ms-2"></i>
+        </a>
+      </div>
+
+      <!-- Center (Engagements) -->
+      <div class="col-md-4 category-card position-relative center-card">
+        <div class="image-container">
+          <img src="images/catnil.jpg" alt="Engagements" class="img-fluid category-image" />
+          <div class="image-overlay">
+            <i class="fas fa-eye overlay-icon"></i>
+          </div>
+        </div>
+        <h5 class="category-title mt-3">Weddings</h5>
+        <p class="category-description">A day full of love, a lifetime of memories.</p>
+        <a href=" https://www.instagram.com/invites/contact/?igsh=1q15kbekpmptr&utm_content=l7weic1" class="btn btn-primary view-more-btn">
+          View More <i class="fas fa-arrow-right ms-2"></i>
+        </a>
+      </div>
+
+      <!-- Right (Casual Shoots) -->
+      <div class="col-md-4 category-card position-relative right-card">
+        <div class="image-container">
+          <img src="images/devor.jpg" alt="Casual Shoots" class="img-fluid category-image" />
+          <div class="image-overlay">
+            <i class="fas fa-eye overlay-icon"></i>
+          </div>
+        </div>
+        <h5 class="category-title mt-3">Casual Sessions</h5>
+        <p class="category-description">Every glance, every smile — the journey begins.</p>
+        <a href=" https://www.instagram.com/invites/contact/?igsh=1q15kbekpmptr&utm_content=l7weic1" class="btn btn-primary view-more-btn">
+          View More <i class="fas fa-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ 
+ <!-- Album Section -->
+<section class="album-section py-5" id="albums">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h1 class="album-heading">Our Beautiful Moments</h1>
+      <p class="album-subheading">Captured Memories</p>
+    </div>
+
+    <div class="album-masonry-grid" data-aos="zoom-in" data-aos-delay="100">
+      <!--  links to Facebook album -->
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al14.jpg" alt="img1">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al17.jpg" alt="img2">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al8.jpg" alt="img3">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al1.jpg" alt="img4">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al15.jpg" alt="img5">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al9.jpg" alt="img6">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al12.jpg" alt="img7">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al3.jpg" alt="img8">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al10.jpg" alt="img9">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+      <a href="https://web.facebook.com/bellezzaweddingsstories/photos" target="_blank">
+        <div class="album-img-wrapper">
+          <img src="imagesal/al13.jpg" alt="img10">
+          <div class="album-overlay-icon"><i class="fas fa-eye"></i></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact-section" class="contact-section">
+  <div class="contact-container">
+  <h1 class="mt-2 fw-semibold" style="font-family: 'MyCustomfont'; font-size: 2.5rem; color: #222;">Contact Us</h1>
+    <p class="contact-description">
+        Ready to bring your wedding vision to life? We’re here for you
+    </p>
+
+    <div class="contact-cards">
+      <!-- Address Card -->
+      <div class="contact-card animate-left">
+        <div class="contact-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <h4>Our Address</h4>
+        <p>36/1, Thalathuoya Road, Ampitiya<br>Kandy</p>
+      </div>
+
+      <!-- Contact Number Card -->
+      <div class="contact-card animate-up">
+        <div class="contact-icon">
+          <i class="fas fa-phone-alt"></i>
+        </div>
+        <h4>Contact Number</h4>
+        <p>Mobile: +94 71 125 3430<br>Email:bellezzaweddingsstories@gmail.com</p>
+      </div>
+
+      <!-- Opening Hours Card -->
+      <div class="contact-card animate-right">
+        <div class="contact-icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <h4>Opening Hour</h4>
+        <p>Monday - Saturday: 9:00 - 18:00<br>Sunday: Closed</p>
+      </div>
+    </div>
+  </div>
+ </section>
+
+
+
+ <!--Footer Section -->
+ <footer class="custom-footer-section">
+  <div class="custom-footer-container">
+
+    <!-- Logo Column -->
+    <div class="custom-footer-column">
+      <div class="custom-footer-logo">
+        <img src="images/Logo only 2.png" alt="Bellezza Weddings Logo">
+      </div>
+      <p>36/1, Thalathuoya Road, Ampitiya<br>Kandy</p>
+      <p><strong>Phone:</strong> +94 71 125 3430</p>
+      <p><strong>Email:</strong> bellezzaweddingsstories@gmail.com</p>
+    </div>
+
+    <!-- Useful Links -->
+    <div class="custom-footer-column">
+      <h4>Useful Links</h4>
+      <ul>
+        <li><a href="#her"><i class="fas fa-chevron-right"></i> Home</a></li>
+        <li><a href="#categories"><i class="fas fa-chevron-right"></i> Categories</a></li>
+        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+        <li><a href="#albums"><i class="fas fa-chevron-right"></i> Albums</a></li>
+        <li><a href="#contact-section"><i class="fas fa-chevron-right"></i> Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Our Services -->
+    <div class="custom-footer-column">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="#Photography"><i class="fas fa-chevron-right"></i>Photography</a></li>
+        <li><a href="#videography"><i class="fas fa-chevron-right"></i> Videography</a></li>
+      </ul>
+    </div>
+
+    <!-- Follow Us -->
+    <div class="custom-footer-column">
+      <h4>Follow Us</h4>
+      <p>Be part of our journey — follow Bellezza Wedding Stories for romantic wedding magic.</p>
+      <div class="custom-footer-social">
+        <a href="https://wa.me/94711253430" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://web.facebook.com/bellezzaweddingsstories" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href=" https://www.instagram.com/invites/contact/?igsh=1q15kbekpmptr&utm_content=l7weic1" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="custom-footer-bottom">
+    <p>&copy; 2025 <strong>BELLEZZA WEDDINGS STORIES (PRIVATE) LIMITED </strong>. All Rights Reserved</p>
+    
+  </div>
+</footer>
+
+
+
+  <!-- JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  
+ </body>
+ </html>
